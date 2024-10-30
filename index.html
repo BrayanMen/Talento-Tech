@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Rider's Café Garage</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="./css/styles.css" />
+  <script type="module" src="script.js"></script>
+</head>
+
+<body>
+  <header class="header_section">
+    <h2 class="header_logo_title">
+      <a href="/">
+        <img src="./images/motoLogo.png" class="header_logo-img" alt="logo">
+      </a>
+      Rider's Café Garage
+    </h2>
+    <div class="header_icons">
+      <a href="/search" class="header_icon-link">
+        <i class="fas fa-search"></i>
+      </a>
+      <a href="/login" class="header_icon-link">
+        <i class="fas fa-user"></i>
+      </a>
+      <a href="/cart" class="header_icon-link">
+        <i class="fas fa-shopping-cart"></i>
+      </a>
+    </div>
+
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle" class="nav-toggle-label">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <nav class="header_nav">
+      <ul class="header_nav-ul">
+        <li class="header_nav-li"><a href="/">Inicio</a></li>
+        <li class="header_nav-li"><a href="#destacados">Modelos</a></li>
+        <li class="header_nav-li"><a href="./pages/history.html">Historia</a></li>
+        <li class="header_nav-li"><a href="#reviews">Reseñas</a></li>
+        <li class="header_nav-li"><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="home-page">
+
+    <section id="cafe-racer" class="home_container_1">
+      <div class="text-box">
+        <h1>Café Racer: Velocidad, Estilo y Libertad.</h1>
+        <p>
+          Las motos <strong>Café Racer</strong> combinan velocidad y un diseño minimalista. Caracterizadas por sus
+          <em>semimanillares bajos</em>, motores optimizados y un estilo limpio que elimina todo lo innecesario, estas
+          motocicletas
+          representan el espíritu de libertad en la calle, pero con alma de circuito.
+        </p>
+        <a href="#slider">
+          <button class="btn-primary">
+            Descubre más
+          </button>
+        </a>
+        <!-- <p>
+            Originarias del <em>Reino Unido</em> en los <em>años 50</em>, las Café Racer nacieron para correr y destacarse. Con el tiempo, dejaron 
+            atrás la obsesión por la velocidad para enfocarse en la estética retro, ganando popularidad entre los amantes del diseño vintage y 
+            las motocicletas personalizadas.
+          </p>
+          <p>
+            Hoy, las <strong>Café Racer</strong> son una declaración de estilo. Descubre las motos más icónicas de este género en 
+            <strong>CafeRaceros</strong> y sé parte de la cultura que combina lo clásico con lo moderno.
+          </p> -->
+      </div>
+    </section>
+
+    <section class="slider" id="slider">
+      <input type="radio" name="radio-btn" id="radio1" checked>
+      <input type="radio" name="radio-btn" id="radio2">
+      <input type="radio" name="radio-btn" id="radio3">
+
+      <div class="slides">
+        <div class="slide">
+          <img
+            src="https://images.pexels.com/photos/2549942/pexels-photo-2549942.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="Modelos de Café Racer">
+          <div class="slide-contenido">
+            <h2>Modelos de Café Racer</h2>
+            <p>Explora nuestros modelos de café racer más destacados.</p>
+            <a href="#destacados">
+              <button class="btn-primary btn-secondary">
+                Ver Modelos
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="slide">
+          <img
+            src="https://images.pexels.com/photos/3378437/pexels-photo-3378437.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="Historia de las Café Racer">
+          <div class="slide-contenido">
+            <h2>Historia de las Café Racer</h2>
+            <p>Descubre cómo surgió la cultura café racer...</p>
+            <a href="./pages/history.html">
+              <button class="btn-primary btn-secondary">
+                Ver Historia
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="slide">
+          <img
+            src="https://images.pexels.com/photos/2549941/pexels-photo-2549941.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="Reseñas de Clientes">
+          <div class="slide-contenido">
+            <h2>Reseñas</h2>
+            <p>Lee las reseñas de nuestros clientes...</p>
+            <a href="#reviews">
+              <button class="btn-primary btn-secondary">
+                Ver Reseñas
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="manual-nav">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+      </div>
+    </section>
+
+    <section id="destacados" class="featured">
+      <h2>Modelos Destacados</h2>
+      <br>
+      <div class="featured-models">
+        <div class="model-card">
+          <img src="https://www.cbr500riders.com/attachments/2013-honda-cb500f-abs2-jpg.44002/" alt="Modelo 1">
+          <h3>Honda CBR500R</h3>
+          <p>471 cc</p>
+          <p>
+            <strong>Precio inicial: $6,000</strong>
+          </p>
+          <a href="#">
+            <button class="btn-primary btn-secondary">
+              Ver Detalles
+            </button>
+          </a>
+        </div>
+        <div class="model-card">
+          <img src="https://harley-davidson.com.ar/img/motos2023/sportsterS/vividBlack/1.webp" alt="Modelo 2">
+          <h3>Harley-Davidson Sportster</h3>
+          <p>883 cc</p>
+          <p>
+            <strong>Precio inicial: $11,000</strong>
+          </p>
+          <a href="#">
+            <button class="btn-primary btn-secondary">
+              Ver Detalles
+            </button>
+          </a>
+        </div>
+        <div class="model-card">
+          <img src="https://lamoto.com.ar/wp-content/uploads/2024/01/Honda-Rebel-1100.jpg" alt="Modelo 3">
+          <h3>Honda Rebel 500</h3>
+          <p>471 cc</p>
+          <p>
+            <strong>Precio inicial: $6,800</strong>
+          </p>
+          <a href="#">
+            <button class="btn-primary btn-secondary">
+              Ver Detalles
+            </button>
+          </a>
+        </div>
+      </div>
+      <a href="./pages/models.html">
+        <button class="btn-primary">Ver mas modelos</button>
+      </a>
+    </section>
+
+    <section id="reviews">
+      <h2>Opiniones de nuestros clientes</h2>
+      <br>
+      <div class="reviews-grid">
+        <div class="review-card">
+          <div class="review-info">
+            <img class="review-avatar"
+              src="https://plus.unsplash.com/premium_photo-1682096259050-361e2989706d?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8am92ZW58ZW58MHx8MHx8fDA%3D"
+              alt="usuario">
+            <div class="review-details">
+              <h3 class="review-title">"Excelente atencion"</h3>
+              <div class="review-user">
+                <cite class="user-name">Brayan Gomez</cite>
+                <time datetime="2024-10-01" class="review-date">01/10/2024</time>
+              </div>
+              <div class="review-rating">
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+              </div>
+            </div>
+          </div>
+          <p class="review-text">Me senti super acompañado en el tramite y bien asesorado.</p>
+        </div>
+
+        <div class="review-card">
+          <div class="review-info">
+            <img class="review-avatar"
+              src="https://plus.unsplash.com/premium_photo-1682096259050-361e2989706d?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8am92ZW58ZW58MHx8MHx8fDA%3D"
+              alt="usuario">
+            <div class="review-details">
+              <h3 class="review-title">"Increible maquina me Vendieron"</h3>
+              <div class="review-user">
+                <cite class="user-name">Petra Lopez</cite>
+                <time datetime="2024-10-01" class="review-date">01/10/2024</time>
+              </div>
+              <div class="review-rating">
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+              </div>
+            </div>
+          </div>
+          <p class="review-text">Pienso sacarle todo el potencial a esta hermosura de MAQUINAAA!.</p>
+        </div>
+
+        <div class="review-card">
+          <div class="review-info">
+            <img class="review-avatar"
+              src="https://plus.unsplash.com/premium_photo-1682096259050-361e2989706d?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8am92ZW58ZW58MHx8MHx8fDA%3D"
+              alt="usuario">
+            <div class="review-details">
+              <h3 class="review-title">"Excelente compra"</h3>
+              <div class="review-user">
+                <cite class="user-name">Juan Pérez</cite>
+                <time datetime="2024-10-01" class="review-date">01/10/2024</time>
+              </div>
+              <div class="review-rating">
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+              </div>
+            </div>
+          </div>
+          <p class="review-text">La moto es excelente y la entrega fue rápida. Muy contento con la compra.</p>
+        </div>
+        <div class="review-card">
+          <div class="review-info">
+            <img class="review-avatar"
+              src="https://plus.unsplash.com/premium_photo-1682096259050-361e2989706d?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8am92ZW58ZW58MHx8MHx8fDA%3D"
+              alt="usuario">
+            <div class="review-details">
+              <h3 class="review-title">"Excelente compra"</h3>
+              <div class="review-user">
+                <cite class="user-name">Juan Pérez</cite>
+                <time datetime="2024-10-01" class="review-date">01/10/2024</time>
+              </div>
+              <div class="review-rating">
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+              </div>
+            </div>
+          </div>
+          <p class="review-text">La moto es excelente y la entrega fue rápida. Muy contento con la compra.</p>
+        </div>
+
+        <div class="review-card">
+          <div class="review-info">
+            <img class="review-avatar"
+              src="https://plus.unsplash.com/premium_photo-1682096259050-361e2989706d?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8am92ZW58ZW58MHx8MHx8fDA%3D"
+              alt="usuario">
+            <div class="review-details">
+              <h3 class="review-title">"Buena compra"</h3>
+              <div class="review-user">
+                <cite class="user-name">Carlos Torres</cite>
+                <time datetime="2024-10-01" class="review-date">05/08/2022</time>
+              </div>
+              <div class="review-rating">
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+              </div>
+            </div>
+          </div>
+          <p class="review-text">Buena calidad y precio. La mejor elección sin duda.</p>
+        </div>
+
+        <div class="review-card">
+          <div class="review-info">
+            <img class="review-avatar"
+              src="https://plus.unsplash.com/premium_photo-1682096259050-361e2989706d?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8am92ZW58ZW58MHx8MHx8fDA%3D"
+              alt="usuario">
+            <div class="review-details">
+              <h3 class="review-title">"Envio Impecable"</h3>
+              <div class="review-user">
+                <cite class="user-name">Camilo Pérez</cite>
+                <time datetime="2024-10-01" class="review-date">31/01/2024</time>
+              </div>
+              <div class="review-rating">
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+              </div>
+            </div>
+          </div>
+          <p class="review-text">La moto llegó rápido y en perfectas condiciones.</p>
+        </div>
+
+        <div class="review-card">
+          <div class="review-info">
+            <img class="review-avatar"
+              src="https://plus.unsplash.com/premium_photo-1682096259050-361e2989706d?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8am92ZW58ZW58MHx8MHx8fDA%3D"
+              alt="usuario">
+            <div class="review-details">
+              <h3 class="review-title">"5 ESTRELLAS"</h3>
+              <div class="review-user">
+                <cite class="user-name">Lucía Ramirez</cite>
+                <time datetime="2024-10-01" class="review-date">01/10/2024</time>
+              </div>
+              <div class="review-rating">
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+              </div>
+            </div>
+          </div>
+          <p class="review-text">Gran servicio y la moto es espectacular. ¡5 estrellas!</p>
+        </div>
+
+        <div class="review-card">
+          <div class="review-info">
+            <img class="review-avatar"
+              src="https://plus.unsplash.com/premium_photo-1682096259050-361e2989706d?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8am92ZW58ZW58MHx8MHx8fDA%3D"
+              alt="usuario">
+            <div class="review-details">
+              <h3 class="review-title">"La mejor decisión."</h3>
+              <div class="review-user">
+                <cite class="user-name">Martin Pelaez</cite>
+                <time datetime="2024-10-01" class="review-date">21/07/2024</time>
+              </div>
+              <div class="review-rating">
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+              </div>
+            </div>
+          </div>
+          <p class="review-text">Una experiencia de compra excelente. Muy recomendados.</p>
+        </div>
+
+        <div class="review-card">
+          <div class="review-info">
+            <img class="review-avatar"
+              src="https://plus.unsplash.com/premium_photo-1682096259050-361e2989706d?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8am92ZW58ZW58MHx8MHx8fDA%3D"
+              alt="usuario">
+            <div class="review-details">
+              <h3 class="review-title">"¡¡¡Los amo!!!"</h3>
+              <div class="review-user">
+                <cite class="user-name">María G</cite>
+                <time datetime="2024-10-01" class="review-date">29/11/2023</time>
+              </div>
+              <div class="review-rating">
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+
+              </div>
+            </div>
+          </div>
+          <p class="review-text">¡La moto es increíble! Me encanta el diseño y la velocidad..</p>
+        </div>
+
+      </div>
+
+      <button class="btn-primary btn-secondary">Ver más</button>
+    </section>
+
+    <section id="history"></section>
+
+    <section id="contact" class="contact">
+      <div class="contact_card">
+        <div class="contact_form">
+          <form action="https://formspree.io/f/mnnqjkzo" method="POST">
+            <h1 class="">Contactame</h1>
+            <br />
+            <div class="contact_input-box">
+              <input type="text" name="nombre" required />
+              <label for="nombre">Nombre Completo:</label>
+            </div>
+            <div class="contact_input-box">
+              <input type="email" name="correo" required />
+              <label for="correo">Correo:</label>
+            </div>
+            <div class="contact_input-box">
+              <input type="text" name="asunto" required />
+              <label for="asunto">Asunto:</label>
+            </div>
+            <div class="contact_input-box">
+              <textarea cols="30" rows="8" name="mensaje" required></textarea>
+              <label for="mensaje">Mensaje:</label>
+            </div>
+            <div class="contact_submit">
+              <input class="contact_submit-button" type="submit" value="Enviar" />
+            </div>
+          </form>
+        </div>
+        <div class="contact_info">
+          <div>
+            <h1 class="">Informacion de Contacto</h1>
+            <div class="contact_info-container">
+              <strong>Ponte en contacto conmigo</strong>
+              <div class="contact_info-item">
+                <a href="mailto:brayanjmr880@gmail.com" class="contact_info-link">
+                  <i class="fa-solid fa-envelope"></i>
+                </a>
+                <span>brayanjmr880@gmail.com</span>
+              </div>
+              <div class="contact_info-item">
+                <a href="https://wa.me/5491127300038" class="contact_info-link">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <p>+(54) 9 11 2730-0038</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <button class="btn-top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">↑</button>
+  </main>
+  <footer class="footer_container">
+    <nav class="footer_nav">
+      <h2>
+        Navegacion
+      </h2>
+      <ul class="footer_nav-ul">
+        <li><a href="/">Inicio</a></li>
+        <li><a href="./pages/models.html">Modelos</a></li>
+        <li><a href="./pages/history.html">Historia</a></li>
+        <li><a href="./pages/reviews.html">Reseñas</a></li>
+        <li><a href="./pages/contact.html">Contacto</a></li>
+      </ul>
+    </nav>
+    <section id="footer_payment-methods">
+      <h2>Métodos de pago</h2>
+      <ul class="footer_ul-payment">
+        <li><i class="fab fa-cc-visa"></i> Visa</li>
+        <li><i class="fab fa-cc-mastercard"></i> MasterCard</li>
+        <li><i class="fab fa-cc-paypal"></i> PayPal</li>
+        <li><i class="fab fa-cc-amex"></i> American Express</li>
+        <li><i class="fa-brands fa-btc"></i> Crypto</li>
+      </ul>
+    </section>
+    <section id="footer_contact-info">
+      <h2>Contacto</h2>
+      <p>Teléfono: <a href="https://wa.me/5491127300038">+54 9 11 2730 0038</a></p>
+      <p>Email: <a href="mailto:brayanjmr880@gmail.com">brayanjmr880@gmail.com</a></p>
+      <ul class="footer_ul-network">
+        <li><a href="https://www.linkedin.com/in/brayan-mendoza-52625a160/"><i class="fa-brands fa-linkedin"></i></a>
+        </li>
+        <li><a href="https://github.com/BrayanMen"><i class="fa-brands fa-github"></i></i></a></li>
+      </ul>
+      <p>Avellaneda, Buenos Aires, Argentina</p>
+      <h2>Siguenos en</h2>
+      <ul class="footer_ul-network">
+        <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+        <li><a href=""><i class="fa-brands fa-instagram"></i></i></a></li>
+        <li><a href=""><i class="fa-brands fa-pinterest"></i></i></a></li>
+        <li><a href=""><i class="fa-brands fa-youtube"></i></i></a></li>
+      </ul>
+    </section>
+    <section class="footer_copyright">
+      <img src="./images/motoLogo.png" width="50px" alt="logo">
+      <p> &copy; Brayan Mendoza 2024 | Motos Café Racer. Todos los derechos reservados.</p>
+      <p>Proyecto Final Integrador | Talento Tech - Front End Js</p>
+    </section>
+  </footer>
+</body>
+
+</html>

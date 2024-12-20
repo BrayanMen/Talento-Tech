@@ -85,12 +85,11 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 });
 
-// fetch("./data/data.json")
-// .then((r) =>{
-//     if(!r.ok){
-//         throw new Error("Error al cargar datos del Json")
-//     }
-//     return r.json();
-// }).then((data) =>{
-//     console.log(data)
-// }).catch((e) => console.log("Error: ", e));
+document.getElementById('cart-toggle').addEventListener('click', (e) => {
+    e.preventDefault();
+    document.querySelector('.cart-container').classList.add('active');
+});
+
+document.getElementById('close-cart').addEventListener('click', () => {
+    document.querySelector('.cart-container').classList.remove('active');
+});

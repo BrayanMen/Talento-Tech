@@ -248,14 +248,6 @@ nav ul li a:hover {
   justify-content: center;
 }
 
-.contact_submit-button {
-  padding: 5px 12px;
-  border-radius: 20px;
-  font-size: 15px;
-  font-weight: 700;
-  cursor: pointer;
-}
-
 .contact_submit-button:hover {
   transform: translateY(-4px);
 }

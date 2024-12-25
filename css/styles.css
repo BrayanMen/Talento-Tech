@@ -381,6 +381,8 @@ nav ul li a:hover {
 .model-card img {
   max-width: 100%;
   border-radius: 8px;
+  height: 260px;
+  object-fit: cover; 
 }
 
 /* home-page */

@@ -6,7 +6,7 @@
       "año": 1972,  
       "precio": 5000,  
       "descripcion": "Una clásica café racer con un motor potente y un diseño estilizado.",  
-      "imagen": "https://example.com/honda_cb750.jpg",  
+      "imagen": "https://kickstart.bikeexif.com/wp-content/uploads/2020/03/1975-honda-cb750-cafe-racer-2.jpg",  
       "motor": "748 cc",  
       "potencia": "67 hp",  
       "peso": "229 kg"  
@@ -17,7 +17,7 @@
       "año": 1976,  
       "precio": 4500,  
       "descripcion": "Reconocida por su fiabilidad y estilo retro.",  
-      "imagen": "https://example.com/yamaha_xs650.jpg",  
+      "imagen": "https://gentedemoto.com/wp-content/uploads/2017/08/yamaha-by-cognito-03.jpg",  
       "motor": "653 cc",  
       "potencia": "50 hp",  
       "peso": "195 kg"  
@@ -28,7 +28,7 @@
       "año": 2000,  
       "precio": 6000,  
       "descripcion": "Un diseño clásico con tecnología moderna.",  
-      "imagen": "https://example.com/kawasaki_w650.jpg",  
+      "imagen": "https://i.pinimg.com/736x/18/2f/83/182f83b0f2365a6476f6dde747e9d829.jpg",  
       "motor": "676 cc",  
       "potencia": "50 hp",  
       "peso": "205 kg"  
@@ -39,7 +39,7 @@
       "año": 2006,  
       "precio": 8000,  
       "descripcion": "Una mezcla perfecta de tradición y modernidad.",  
-      "imagen": "https://example.com/triumph_bonneville.jpg",  
+      "imagen": "https://res.cloudinary.com/twisted-road/image/upload/c_fill,g_auto,h_600,w_900,q_auto,f_auto/v1691958075/twisted_api/production/vehicles/qoc6wma7yep3um9hja0b.heic",  
       "motor": "865 cc",  
       "potencia": "68 hp",  
       "peso": "220 kg"  
@@ -50,7 +50,7 @@
       "año": 1981,  
       "precio": 7000,  
       "descripcion": "Estilo alemán clásico con un potente motor boxer.",  
-      "imagen": "https://example.com/bmw_r100.jpg",  
+      "imagen": "https://bringatrailer.com/wp-content/uploads/2022/11/1984_bmw_r100_pxl_20221016_211345235.portrait-38326.jpg?w=940",  
       "motor": "980 cc",  
       "potencia": "70 hp",  
       "peso": "250 kg"  
@@ -61,7 +61,7 @@
       "año": 2014,  
       "precio": 14000,  
       "descripcion": "Un icono moderno con un diseño clásico.",  
-      "imagen": "https://example.com/bmw_r_ninet.jpg",  
+      "imagen": "https://mediapool.bmwgroup.com/cache/P9/202305/P90504411/P90504411-bmw-r-12-ninet-studio-05-2023-600px.jpg",  
       "motor": "1170 cc",  
       "potencia": "110 hp",  
       "peso": "221 kg"  
@@ -72,7 +72,7 @@
       "año": 2010,  
       "precio": 17000,  
       "descripcion": "Un verdadero símbolo de la customización británica.",  
-      "imagen": "https://example.com/norton_commando.jpg",  
+      "imagen": "https://i0.wp.com/nortonmotorcycles.com/wp-content/uploads/2022/10/Commando-961-gallery-09.png?w=1200&ssl=1",  
       "motor": "961 cc",  
       "potencia": "80 hp",  
       "peso": "186 kg"  
@@ -83,7 +83,7 @@
       "año": 1977,  
       "precio": 3800,  
       "descripcion": "Un clásico de los años 70 con un diseño elegante.",  
-      "imagen": "https://example.com/suzuki_gs550.jpg",  
+      "imagen": "https://www.bikebound.com/wp-content/uploads/2022/06/Suzuki-GS550-Cafe-Racer-6.jpg",  
       "motor": "544 cc",  
       "potencia": "50 hp",  
       "peso": "215 kg"  
@@ -94,7 +94,7 @@
       "año": 2015,  
       "precio": 10500,  
       "descripcion": "Con un estilo vintage y moderno al mismo tiempo.",  
-      "imagen": "https://example.com/ducati_scrambler.jpg",  
+      "imagen": "https://s3.eu-west-1.amazonaws.com/cdn.motorbikemag.es/wp-content/uploads/2016/09/ducati-scrambler-icon-2015-38-768x573.jpg",  
       "motor": "803 cc",  
       "potencia": "75 hp",  
       "peso": "189 kg"  
@@ -105,7 +105,7 @@
       "año": 2017,  
       "precio": 5000,  
       "descripcion": "Una moto ligera y perfecta para la ciudad.",  
-      "imagen": "https://example.com/ktm_390_duke.jpg",  
+      "imagen": "https://image.makewebeasy.net/makeweb/m_1920x0/q30cMsAxv/NEWCAR/KTM_0022.jpg",  
       "motor": "373 cc",  
       "potencia": "44 hp",  
       "peso": "149 kg"  
@@ -116,7 +116,7 @@
       "año": 1974,  
       "precio": 5500,  
       "descripcion": "Música para los oídos, estilo para los ojos.",  
-      "imagen": "https://example.com/honda_cb550.jpg",  
+      "imagen": "https://i.pinimg.com/736x/51/64/11/51641121c1fbda489a1da502f75a7a54.jpg",  
       "motor": "544 cc",  
       "potencia": "50 hp",  
       "peso": "199 kg"  
@@ -127,7 +127,7 @@
       "año": 2017,  
       "precio": 7000,  
       "descripcion": "Una combinación de estilo y rendimiento.",  
-      "imagen": "https://example.com/royal_enfield_gt.jpg",  
+      "imagen": "https://motos0km.com.ar/models/royal-enfield-continental-gt-gallery-ff0000-020180927210306.jpg",  
       "motor": "535 cc",  
       "potencia": "29 hp",  
       "peso": "198 kg"  
@@ -138,7 +138,7 @@
       "año": 1960,  
       "precio": 8500,  
       "descripcion": "Un clásico británico que nunca pasa de moda.",  
-      "imagen": "https://example.com/bsa_gold_star.jpg",  
+      "imagen": "https://www.moto1pro.com/sites/default/files/bsa-gold-star.jpg",  
       "motor": "500 cc",  
       "potencia": "45 hp",  
       "peso": "175 kg"  
@@ -149,7 +149,7 @@
       "año": 2020,  
       "precio": 12000,  
       "descripcion": "Moto personalizada única con un estilo agresivo.",  
-      "imagen": "https://example.com/custom_cafe_racer.jpg",  
+      "imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/octane/QTZ55OFMTVD7BKI77WAD5O3BZI.jpg",  
       "motor": "750 cc",  
       "potencia": "90 hp",  
       "peso": "205 kg"  
@@ -160,7 +160,7 @@
       "año": 2018,  
       "precio": 6200,  
       "descripcion": "Diseño escandinavo con un enfoque moderno.",  
-      "imagen": "https://example.com/husqvarna_vitpilen.jpg",  
+      "imagen": "https://i0.wp.com/www.dailymotos.com/wp-content/uploads/2016/09/Husqvarna-401-Vitpilen-Concept-1.jpg?fit=1024%2C684&ssl=1",  
       "motor": "373 cc",  
       "potencia": "44 hp",  
       "peso": "158 kg"  
@@ -171,7 +171,7 @@
       "año": 2018,  
       "precio": 12000,  
       "descripcion": "Una combinación perfecta de potencia y nostalgia.",  
-      "imagen": "https://example.com/kawasaki_z900rs.jpg",  
+      "imagen": "https://www.webike.es/magazine/wp-content/uploads/2024/07/0801_Z900RS_01.jpg",  
       "motor": "948 cc",  
       "potencia": "110 hp",  
       "peso": "213 kg"  
@@ -182,7 +182,7 @@
       "año": 2016,  
       "precio": 9000,  
       "descripcion": "Estilo clásico italiano con un toque moderno.",  
-      "imagen": "https://example.com/moto_guzzi_v9.jpg",  
+      "imagen": "https://a.mcdn.es/mnet/contents/media/resources/2018/10/1128243.jpg/900x505cut/",  
       "motor": "853 cc",  
       "potencia": "55 hp",  
       "peso": "199 kg"  
@@ -193,7 +193,7 @@
       "año": 2019,  
       "precio": 5500,  
       "descripcion": "Ligera y divertida, ideal para principiantes.",  
-      "imagen": "https://example.com/kawasaki_z400.jpg",  
+      "imagen": "https://cdn.motor1.com/images/mgl/VR137/s1/4x3/desde-usd-9-990-la-kawasaki-z400-2019-ya-esta-a-la-venta.webp",  
       "motor": "399 cc",  
       "potencia": "45 hp",  
       "peso": "167 kg"  
@@ -237,7 +237,7 @@
       "año": 2018,  
       "precio": 6200,  
       "descripcion": "style agresivo y robusto con diseño moderno.",  
-      "imagen": "https://husqvarnapilar.com.ar/wp-content/uploads/divisor_Svartpilen401-2024.webp#394",  
+      "imagen": "https://motorlandperu.com/wp-content/uploads/2022/08/Husqvarna-250-600x600.jpg",  
       "motor": "373 cc",  
       "potencia": "44 hp",  
       "peso": "158 kg"  

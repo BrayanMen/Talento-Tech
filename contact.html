@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Other page</title>
+    <title>Contacto</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <script type="module" src="script.js"></script>
+    <script type="module" src="./script.js"></script>
   </head>
   <body>
     <header class="header_section">
@@ -23,8 +23,9 @@
           <a href="/login" class="header_icon-link">
             <i class="fas fa-user"></i> 
           </a>
-          <a href="/cart" class="header_icon-link">
+          <a href="/cart" class="header_icon-link" id="cart-toggle">
             <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count">0</span>
           </a>
         </div>        
         <input type="checkbox" id="nav-toggle" class="nav-toggle">
@@ -44,6 +45,20 @@
       </nav>
   </header>
     <main>
+
+      <div class="cart-container">
+        <div class="cart-header">
+          <h2>Carrito de Compras</h2>
+          <button class="btn-cart-close" id="close-cart">✕</button>
+        </div>
+        <div class="cart-items">         
+        </div>
+        <div class="cart-footer">
+          <div class="cart-total">Total: $0</div>
+          <button class="btn-primary">Finalizar Compra</button>
+        </div>
+      </div>
+      
        <section id="contact" class="contact">
         <div class="contact_card">
           <div class="contact_form">
@@ -136,7 +151,7 @@
           </ul>
         </section>
         <section class="footer_copyright">
-          <img src="../images/motoLogo.png" width="50px" alt="logo">
+          <img src="./images/motoLogo.png" width="50px" alt="logo">
           <p> &copy; Brayan Mendoza 2024 | Motos Café Racer. Todos los derechos reservados.</p>
           <p>Proyecto Final Integrador | Talento Tech - Front End Js</p>
       </section>

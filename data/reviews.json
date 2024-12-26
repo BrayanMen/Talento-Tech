@@ -1,0 +1,113 @@
+{
+    "reviews": [
+      {
+        "id": 1,
+        "nombre": "Brayan Gomez",
+        "fecha": "2024-10-01",
+        "titulo": "Excelente atención",
+        "comentario": "Me sentí super acompañado en el trámite y bien asesorado.",
+        "calificacion": 5,
+        "avatar": "https://plus.unsplash.com/premium_photo-1682096259050-361e2989706d?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8am92ZW58ZW58MHx8MHx8fDA%3D"
+      },
+      {
+        "id": 2,
+        "nombre": "Lucía Martínez",
+        "fecha": "2024-09-15",
+        "titulo": "Una experiencia única",
+        "comentario": "La moto es de excelente calidad y el servicio fue impecable.",
+        "calificacion": 5,
+        "avatar": "https://randomuser.me/api/portraits/women/45.jpg"
+      },
+      {
+        "id": 3,
+        "nombre": "Carlos Pérez",
+        "fecha": "2024-08-22",
+        "titulo": "Buena relación calidad-precio",
+        "comentario": "Recomiendo totalmente, la moto llegó en perfecto estado.",
+        "calificacion": 4,
+        "avatar": "https://randomuser.me/api/portraits/men/32.jpg"
+      },
+      {
+        "id": 4,
+        "nombre": "Ana Torres",
+        "fecha": "2024-07-10",
+        "titulo": "¡Super satisfecha!",
+        "comentario": "La atención al cliente fue excelente y resolvieron todas mis dudas.",
+        "calificacion": 5,
+        "avatar": "https://randomuser.me/api/portraits/women/60.jpg"
+      },
+      {
+        "id": 5,
+        "nombre": "Javier López",
+        "fecha": "2024-06-18",
+        "titulo": "Un poco de demora",
+        "comentario": "La entrega tardó un poco, pero el producto es excelente.",
+        "calificacion": 3,
+        "avatar": "https://randomuser.me/api/portraits/men/55.jpg"
+      },
+      {
+        "id": 6,
+        "nombre": "Sofía Herrera",
+        "fecha": "2024-05-12",
+        "titulo": "Perfecta para viajar",
+        "comentario": "La moto es perfecta para viajes largos, muy cómoda.",
+        "calificacion": 5,
+        "avatar": "https://randomuser.me/api/portraits/women/33.jpg"
+      },
+      {
+        "id": 7,
+        "nombre": "Diego Ramírez",
+        "fecha": "2024-04-20",
+        "titulo": "Atención excelente",
+        "comentario": "El equipo fue muy atento desde el primer momento.",
+        "calificacion": 4,
+        "avatar": "https://randomuser.me/api/portraits/men/44.jpg"
+      },
+      {
+        "id": 8,
+        "nombre": "María González",
+        "fecha": "2024-03-15",
+        "titulo": "Moto espectacular",
+        "comentario": "¡La mejor compra que he hecho este año!",
+        "calificacion": 5,
+        "avatar": "https://randomuser.me/api/portraits/women/50.jpg"
+      },
+      {
+        "id": 9,
+        "nombre": "Roberto Núñez",
+        "fecha": "2024-02-28",
+        "titulo": "Entrega rápida",
+        "comentario": "La moto llegó mucho antes de lo esperado, muy satisfecho.",
+        "calificacion": 5,
+        "avatar": "https://randomuser.me/api/portraits/men/31.jpg"
+      },
+      {
+        "id": 10,
+        "nombre": "Laura Silva",
+        "fecha": "2024-01-05",
+        "titulo": "Muy buena calidad",
+        "comentario": "La moto es de muy buena calidad, la recomiendo.",
+        "calificacion": 4,
+        "avatar": "https://randomuser.me/api/portraits/women/52.jpg"
+    },
+    {
+        "id": 11,
+        "nombre": "Juan Pérez",
+        "fecha": "2024-01-05",
+        "titulo": "Muy buena calidad",
+        "comentario": "La moto es de muy buena calidad, la recomiendo.",
+        "calificacion": 4,
+        "avatar": "https://randomuser.me/api/portraits/men/61.jpg"
+    },
+    {
+        "id": 12,
+        "nombre": "Lucía Martínez",
+        "fecha": "2024-01-05",
+        "titulo": "Muy buena calidad",
+        "comentario": "La moto es de muy buena calidad, la recomiendo.",
+        "calificacion": 4,
+        "avatar": "https://randomuser.me/api/portraits/women/62.jpg"
+    }
+    ]
+  }
+  

@@ -1,0 +1,25 @@
+{
+    "slides": [
+      {
+        "imagen": "https://images.pexels.com/photos/2549942/pexels-photo-2549942.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "titulo": "Modelos de Café Racer",
+        "descripcion": "Explora nuestros modelos de café racer más destacados.",
+        "enlace": "#destacados",
+        "boton": "Ver Modelos"
+      },
+      {
+        "imagen": "https://images.pexels.com/photos/3378437/pexels-photo-3378437.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "titulo": "Historia de las Café Racer",
+        "descripcion": "Descubre cómo surgió la cultura café racer...",
+        "enlace": "./history.html",
+        "boton": "Ver Historia"
+      },
+      {
+        "imagen": "https://images.pexels.com/photos/2549941/pexels-photo-2549941.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "titulo": "Reseñas",
+        "descripcion": "Lee las reseñas de nuestros clientes...",
+        "enlace": "#reviews",
+        "boton": "Ver Reseñas"
+      }
+    ]
+  }

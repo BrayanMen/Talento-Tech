@@ -2,7 +2,7 @@ let currentPage = 1;
 const itemsPerPage = 6;
 let navbar = document.querySelector('.header_section');
 let carroDeCompra = [];
-let openModal = false
+let openModal = false;
 
 async function cargaDatos(ruta) {
     try {
@@ -14,6 +14,52 @@ async function cargaDatos(ruta) {
         console.log("Error: ", error.message);
         return [];
     }
+}
+
+function cargarSlidesContenido(items) {
+    const contenedorSlides = document.querySelector('.slides');
+    const contenedorManualNav = document.querySelector('.manual-nav');
+    contenedorSlides.innerHTML = '';
+    contenedorManualNav.innerHTML = ''; 
+
+    const radioInputs = items.map((_, index) => {
+        return `<input type="radio" name="radio-btn" id="radio${index + 1}" ${index === 1 ? 'checked' : ''}>`;
+    }).join('');
+    contenedorSlides.insertAdjacentHTML('afterbegin', radioInputs);
+
+    items.forEach((slide, index) => {
+        const slideCard = `
+        <div class="slide">
+          <img
+            src=${slide.imagen}
+            alt=${slide.titulo}>
+          <div class="slide-contenido">
+            <h2>${slide.titulo}</h2>
+            <p>${slide.descripcion}</p>
+            <a href=${slide.enlace}>
+              <button class="btn-primary btn-secondary">
+               ${slide.boton}
+              </button>
+            </a>
+          </div>
+        </div>
+        `;
+        contenedorSlides.innerHTML += slideCard;
+        contenedorManualNav.innerHTML += `<label for="radio${index + 1}" class="manual-btn"></label>`;
+    });
+
+    inicializarSlider();
+}
+
+function inicializarSlider(){
+    let i = 1;
+    const radios = document.querySelectorAll('input[name="radio-btn"]');
+    const totalRadios = radios.length;
+
+    setInterval(() => {
+        radios[i].checked = true;
+        i = (i + 1) % totalRadios; 
+    }, 5000);
 }
 
 function renderizarItems(items, contenedor) {
@@ -83,6 +129,11 @@ async function mostrarItemsDestacados() {
     const itemsDestacados = items.cafe_racers.slice(20, 23);
     renderizarItems(itemsDestacados, ".featured-models");
 }
+async function mostrarSlides() {
+    const slider = await cargaDatos("./data/slides.json");
+    const slidesContenido = slider.slides;
+    cargarSlidesContenido(slidesContenido);
+}
 
 async function mostrarReviewsDestacados() {
     const items = await cargaDatos('./data/reviews.json');
@@ -122,24 +173,24 @@ function manejarScroll(models) {
     }
 }
 
-function agregarAlCarro(item) { 
+function agregarAlCarro(item) {
     const existente = carroDeCompra.find(prod => prod.id === item.id);
     if (existente) {
         existente.cantidad++;
     } else {
         item.cantidad = 1;
         carroDeCompra.push(item);
-    }    
-    actuContadorCart();  
+    }
+    actuContadorCart();
     actuCarrito();
     guardarCarritoLocalStorage();
 }
 
-function eliminarDelCarrito(id) {    
-        carroDeCompra = carroDeCompra.filter(item => item.id !== id);
-        actuCarrito();
-        actuContadorCart(); 
-        guardarCarritoLocalStorage(); 
+function eliminarDelCarrito(id) {
+    carroDeCompra = carroDeCompra.filter(item => item.id !== id);
+    actuCarrito();
+    actuContadorCart();
+    guardarCarritoLocalStorage();
 }
 
 function aumentarCantidad(id) {
@@ -147,7 +198,7 @@ function aumentarCantidad(id) {
     if (item) {
         item.cantidad++;
         actuCarrito();
-        actuContadorCart(); 
+        actuContadorCart();
         guardarCarritoLocalStorage();
     }
 }
@@ -161,7 +212,7 @@ function disminuirCantidad(id) {
             eliminarDelCarrito(id);
         }
         actuCarrito();
-        actuContadorCart(); 
+        actuContadorCart();
         guardarCarritoLocalStorage();
     }
 }
@@ -189,7 +240,7 @@ function actuContadorCart() {
         navbar.style.top = '0';
         navbar.style.width = '100%';
         navbar.style.zIndex = '1000';
-        navbar .style.backgroundColor = 'black';
+        navbar.style.backgroundColor = 'black';
         document.body.style.paddingTop = navbar.offsetHeight + 'px';
     } else {
         // contador.classList.remove('active');
@@ -283,8 +334,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const ruta = window.location.pathname;
     cargarCarritoDeLocalStorage();
     if (ruta.includes("index.html") || ruta === "/") {
-        mostrarItemsDestacados();   
+        mostrarItemsDestacados();
         mostrarReviewsDestacados();
+        mostrarSlides();
     }
     if (ruta.includes("/models.html")) {
         mostrarTodosLosItems();
